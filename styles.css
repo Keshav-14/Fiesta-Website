@@ -2,6 +2,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Protest+Revolution&display=swap');
 
+@keyframes fadeInFadeOut {
+    from { opacity: 0.4; color: rgb(190, 4, 4);}
+    50% { opacity: 1; }
+    to { opacity: 0.4; color: white;}
+  }
+
+  @keyframes blink {
+    from {opacity: 0.5; font-size: 1em;}
+    50% {opacity: 1; font-size: 1.1em;}
+    to {opacity: 0.5; font-size: 1em;}
+  }
+
+  @keyframes wobble {
+    0% {
+      transform: rotateZ(0deg);
+    }
+    25% {
+      transform: rotateZ(-3deg);
+    }
+    75% {
+      transform: rotateZ(3deg);
+    }
+    100% {
+      transform: rotateZ(0deg);
+    }
+  }
+  
 * {
     margin: 0;
     padding: 0;
@@ -76,21 +103,24 @@ header {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url('images/stage-bg.jpg') no-repeat;
+    background: url('images/stage-bg1.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
-#text {
-    font-family: "Merienda", cursive;
+#words {
+    /* font-family: "Merienda", cursive;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 500;  */
+    font-size: 2.5em;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
     position: absolute;
     text-shadow: 2px 2px #000;
     font-style: normal;
     color: white;
-    font-size: 6em;
+    font-size: 7em;
 }
 
 .parallax img {
@@ -122,11 +152,117 @@ header {
 }
 
 
-.wrapper {
+.wrapper-home {
     z-index: 2;
     background: #000;
     position: relative;
-    padding: 30px 100px;
+    padding: 100px;
     color: #fff;
 }
 
+.wrapper-home .container-home .College {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.wrapper-home .container-home .College h1 {
+    padding: 30px;
+}
+
+
+.wrapper-home .container-home .fiesta-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper-home .container-home .fiesta-text h1{
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6em;
+    animation: fadeInFadeOut 5s ease-in-out infinite alternate;
+}
+
+.wrapper-home .container-home .container-text1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    margin-left: -150px;
+}
+
+.wrapper-home .container-home .container-text2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-right: -400px;
+}
+
+.wrapper-home .container-home .container-text3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-left: -400px;
+}
+
+.wrapper-home .container-home .container-text4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -400px;
+    padding: 20px;
+}
+
+.container-style h2{
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 4em;
+}
+
+.container-style h3 {
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 4em;
+    transform: rotate(20deg);
+    text-shadow: 4px 2px red;    
+}
+
+.take-me-to-events {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.take-me-to-events h5 {
+    font-size: 1.1em;
+    animation: wobble 1s ease-in-out infinite alternate;
+}
+
+.take-me-to-events a{
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.take-me-to-events a:hover {
+    animation: blink 1s ease-in-out infinite;
+}
+
+.take-me-to-events a:visited {
+    color: #fff;
+}
+
+.footer-design {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
