@@ -1,297 +1,290 @@
 <!DOCTYPE html>
-<html lang="en" style="scroll-behavior: smooth;">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fiesta24</title>
+    <title>Document</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="event-stylesheet.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
     <header>
         <h2 class="logo">Fiesta'24</h2>
         <nav class="navigation">
-            <a href="#" class="active">Home<span></span></a>
-            <a href="#event-section" >Events<span></span></a>
+            <a href="index.html" class="active">Home<span></span></a>
+            <a href="event.html">Events<span></span></a>
             <a href="#">Download Form<span></span></a>
         </nav>
     </header>
-
-    <section class="parallax">
+    <div class="parallax">
         <h2 id="words">Yoo! Juniors</h2>
         <img src="images/center-screen1.png" alt="" id="center-screen">
         <img src="images/curtain-left1.png" alt="" id="curtain-left">
         <img src="images/curtain-right1.png" alt="" id="curtain-right">
         <img src="images/audience.png" alt="" id="audience">
-    </section>
+    </div>
+        <div class="wrapper-home">
+            <div class="container-home">
+                <div class="fiesta-text">
+                    <h1>Fiesta'24</h1>
+                </div>
+                <div class="College">
+                    <span><img src="/images/logo.jpeg" alt="College Logo"></span>
+                    <h1>Mepco Schlenk Engineering College</h1>
+                </div>
+                <div class="container-text1 container-style">
+                    <h2>An Intra College Cultural Competition</h2>
+                    <h3>Date : 21-4-24</h3>
+                </div>
+                <div class="container-text2 container-style">
+                    <h2>Where Arts Meets Hearts...</h2>
+                </div>
+                <div class="container-text3 container-style">
+                    <h2>Under the Guidance of Club Chair-person</h2>
+                </div>
+                <div class="container-text4 container-style">
+                    <h2>A Perfect Stage to Showcase Your Talents</h2>
+                </div>
+            </div>
+        </div>
+        <div class="ink-image">
+            <img src="images/ink-layer1.png" alt="">
+        </div>
+        <!-- Solo Events -->
+        <div class="whole-container">
+            <div class="wrapper2" id="event-section" style="position: relative;">
+                <div class="event-title">
+                    <h1>Solo Events</h1>
+                    <p>Click on the event name to know about the event</p>
+                </div>
+                <div class="container">
+                    <input type="radio" name="Solo-events" id="c1" checked>
+                    <label for="c1" class="card">
+                        <div class="row">
+                            <div class="icon">1</div>
+                            <div class="description">
+                                <h4><a href="events/solo-events/dance.html">Dancing</a></h4>
+                                <p>Faculty In-charge : Dr.T.Prabaharan/MECH & Dr.C.Gangalakshmi/ENG</p>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="radio" name="Solo-events" id="c2">
+                    <label for="c2" class="card">
+                        <div class="row">
+                            <div class="icon">2</div>
+                            <div class="description">
+                                <h4><a href="events/solo-events/singing.html">Singing</a></h4>
+                                <p>Faculty In-charge : Mr.Haamidh/CIV & Dr.Winfred Shashikanth/PHY</p>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="radio" name="Solo-events" id="c3">
+                    <label for="c3" class="card">
+                        <div class="row">
+                            <div class="icon">3</div>
+                            <div class="description">
+                                <h4><a href="events/solo-events/yoga.html">Yoga</a></h4>
+                                <p>Faculty In-charge : Mrs.AMK.Saliha Banu/PED</p>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="radio" name="Solo-events" id="c4">
+                    <label for="c4" class="card">
+                        <div class="row">
+                            <div class="icon">4</div>
+                            <div class="description">
+                                <h4><a href="events/solo-events/as-you-like-it.html">As You Like It</a></h4>
+                                <p>Faculty In-charge : Mr.Viswalingam/ENG</p>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="radio" name="Solo-events" id="c5">
+                    <label for="c5" class="card">
+                        <div class="row">
+                            <div class="icon">5</div>
+                            <div class="description">
+                                <h4><a href="events/solo-events/solo-instrumental.html">Instrumental</a></h4>
+                                <p>Faculty In-charge : Mr.Haamidh/CIV & Dr.Winfred Shashikanth/PHY</p>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="radio" name="Solo-events" id="c6" >
+                    <label for="c6" class="card">
+                        <div class="row">
+                            <div class="icon">6</div>
+                            <div class="description">
+                                <h4><a href="events/solo-events/pixie.html">Pixie</a></h4>
+                                <p>Faculty In-charge : Dr.M.Sureshkumar/PHY</p>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="radio" name="Solo-events" id="c7" >
+                    <label for="c7" class="card">
+                        <div class="row">
+                            <div class="icon">7</div>
+                            <div class="description">
+                                <h4><a href="events/solo-events/ezhuthaani.html" style="color: black;">Ezhuthaani</a></h4>
+                                <p style="color: black;">Faculty In-charge : Mrs.J.Deepalakshmi/MATH</p>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="radio" name="Solo-events" id="c8" >
+                    <label for="c8" class="card">
+                        <div class="row">
+                            <div class="icon">8</div>
+                            <div class="description">
+                                <h4><a href="events/solo-events/drawing.html">Drawing</a></h4>
+                                <p>Faculty In-charge : Dr.A.Shenbagarajan/AI&DS</p>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="radio" name="Solo-events" id="c9" >
+                    <label for="c9" class="card">
+                        <div class="row">
+                            <div class="icon">9</div>
+                            <div class="description">
+                                <h4><a href="events/solo-events/best-manager.html">Best Manager</a></h4>
+                                <p>Faculty In-charge : Dr.A.Sakthivel/CHEM</p>
+                            </div>
+                        </div>
+                    </label>
+                </div> <!-- container -->
+            </div><!-- wrapper2 -->
+            <!-- Group Events -->
+            <div class="wrapper2" style="position: relative;">
+                <div class="event-title">
+                    <h1>Group Events</h1>
+                    <p>Click on the event name to know about the event</p>
+                </div>
+                <div class="container">
+                    <input type="radio" name="Group-events" id="g1" checked >
+                    <label for="g1" class="card">
+                        <div class="row">
+                            <div class="icon">1</div>
+                            <div class="description">
+                                <h4><a href="events/group-events/group-dance.html">Group Dance</a></h4>
+                                <p>Faculty In-charge : Dr.T.Prabaharan/MECH & Dr.C.Gangalakshmi/ENG</p>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="radio" name="Group-events" id="g2">
+                    <label for="g2" class="card">
+                        <div class="row">
+                            <div class="icon">2</div>
+                            <div class="description">
+                                <h4><a href="events/group-events/drama.html">Drama/Mime</a></h4>
+                                <p> Faculty In-charge : Mr.M.Jawahar/EEE</p>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="radio" name="Group-events" id="g3">
+                    <label for="g3" class="card">
+                        <div class="row">
+                            <div class="icon">3</div>
+                            <div class="description">
+                                <h4><a href="events/group-events/rangoli.html">Rangoli</a></h4>
+                                <p> Faculty In-charge : Mrs. Blessa Binolin Pepsi/IT & Mrs.P.Madhumitha/ENG</p>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="radio" name="Group-events" id="g4">
+                    <label for="g4" class="card">
+                        <div class="row">
+                            <div class="icon">4</div>
+                            <div class="description">
+                                <h4><a href="events/group-events/radio-mirchi.html">Radio Mirchi</a></h4>
+                                <p>Faculty In-charge : Mrs.P.Palniladevi, Asst. Professor/ECE</p>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="radio" name="Group-events" id="g5">
+                    <label for="g5" class="card">
+                        <div class="row">
+                            <div class="icon">5</div>
+                            <div class="description">
+                                <h4><a href="events/group-events/sherlock-holmes.html">Sherlock Holmes</a></h4>
+                                <p>Faculty In-charge : Mr.J.Anish Jafrin Thilak/MECH</p>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="radio" name="Group-events" id="g6" >
+                    <label for="g6" class="card">
+                        <div class="row">
+                            <div class="icon">6</div>
+                            <div class="description">
+                                <h4><a href="events/group-events/quiz.html">Quiz</a></h4>
+                                <p>Faculty In-charge : Mrs.A.Annie Aglin/BT</p>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="radio" name="Group-events" id="g7" >
+                    <label for="g7" class="card">
+                        <div class="row">
+                            <div class="icon">7</div>
+                            <div class="description">
+                                <h4><a href="events/group-events/Treasure-hunt.html">Treasure Hunt</a></h4>
+                                <p>Faculty In-charge : Dr.J.Senthil Kumar/ECE</p>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="radio" name="Group-events" id="g8" >
+                    <label for="g8" class="card">
+                        <div class="row">
+                            <div class="icon">8</div>
+                            <div class="description">
+                                <h4><a href="events/group-events/lyrical-hunt.html">Lyrical Hunt</a></h4>
+                                <p>Faculty In-charge : Mrs.S.Usha/CIV</p>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="radio" name="Group-events" id="g9" >
+                    <label for="g9" class="card">
+                        <div class="row">
+                            <div class="icon">9</div>
+                            <div class="description">
+                                <h4><a href="events/group-events/poster-making.html">Poster Making</a></h4>
+                                <p>Faculty In-charge : Dr.M.Suresh Kumar/PHY</p>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="radio" name="Group-events" id="g10" >
+                    <label for="g10" class="card">
+                        <div class="row">
+                            <div class="icon">10</div>
+                            <div class="description">
+                                <h4><a href="#">Winter</a></h4>
+                                <p>Winter has so much to offer creative activities</p>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="radio" name="Group-events" id="g11" >
+                    <label for="g11" class="card">
+                        <div class="row">
+                            <div class="icon">11</div>
+                            <div class="description">
+                                <h4><a href="#">Winter</a></h4>
+                                <p>Winter has so much to offer creative activities</p>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="radio" name="Group-events" id="g12" >
+                    <label for="g12" class="card">
+                        <div class="row">
+                            <div class="icon">12</div>
+                            <div class="description">
+                                <h4><a href="#">Winter</a></h4>
+                                <p>Winter has so much to offer creative activities</p>
+                            </div>
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </div>  <!-- whole-container -->
+        <div class="footer-design">
+            <footer>Designed by Keshavarathinam S</footer>
+        </div>
 
-    <div class="wrapper-home">
-        <div class="container-home">
-            <div class="fiesta-text">
-                <h1>Fiesta'24</h1>
-            </div>
-            <div class="College">
-                <span><img src="/images/logo.jpeg" alt="College Logo"></span>
-                <h1>Mepco Schlenk Engineering College</h1>
-            </div>
-            
-            <div class="container-text1 container-style">
-                <h2>An Intra College Cultural Competition</h2>
-                <h3>Date : 21-4-24</h3>
-            </div>
-            <div class="container-text2 container-style">
-                <h2>Where Arts Meets Hearts...</h2>
-            </div>
-            <div class="container-text3 container-style">
-                <h2>Under the Guidance of Club Chair-person</h2>
-            </div>
-            <div class="container-text4 container-style">
-                <h2>A Perfect Stage to Showcase Your Talents</h2>
-            </div>
-        </div>
-    </div>
-
-    <div class="ink-image">
-        <img src="images/ink-layer1.png" alt="">
-    </div>
-    
-    <div class="wrapper2" id="event-section" style="margin-top: -100px;">
-        <div class="event-title">
-            <h1>Solo Events</h1>
-            <p>Click on the event name to know about the event</p>
-        </div>
-        <div class="container">
-            <input type="radio" name="Solo-events" id="c1" checked>
-            <label for="c1" class="card">
-                <div class="row">
-                    <div class="icon">1</div>
-                    <div class="description">
-                        <h4><a href="events/solo-events/dance.html">Dancing</a></h4>
-                        <p>Faculty In-charge : Dr.T.Prabaharan/MECH & Dr.C.Gangalakshmi/ENG</p>
-                    </div>
-                </div>
-            </label>
-            <input type="radio" name="Solo-events" id="c2">
-            <label for="c2" class="card">
-                <div class="row">
-                    <div class="icon">2</div>
-                    <div class="description">
-                        <h4><a href="events/solo-events/singing.html">Singing</a></h4>
-                        <p>Faculty In-charge : Mr.Haamidh/CIV & Dr.Winfred Shashikanth/PHY</p>
-                    </div>
-                </div>
-            </label>
-            <input type="radio" name="Solo-events" id="c3">
-            <label for="c3" class="card">
-                <div class="row">
-                    <div class="icon">3</div>
-                    <div class="description">
-                        <h4><a href="events/solo-events/yoga.html">Yoga</a></h4>
-                        <p>Faculty In-charge : Mrs.AMK.Saliha Banu/PED</p>
-                    </div>
-                </div>
-            </label>
-            <input type="radio" name="Solo-events" id="c4">
-            <label for="c4" class="card">
-                <div class="row">
-                    <div class="icon">4</div>
-                    <div class="description">
-                        <h4><a href="events/solo-events/as-you-like-it.html">As You Like It</a></h4>
-                        <p>Faculty In-charge : Mr.Viswalingam/ENG</p>
-                    </div>
-                </div>
-            </label>
-            <input type="radio" name="Solo-events" id="c5">
-            <label for="c5" class="card">
-                <div class="row">
-                    <div class="icon">5</div>
-                    <div class="description">
-                        <h4><a href="events/solo-events/solo-instrumental.html">Instrumental</a></h4>
-                        <p>Faculty In-charge : Mr.Haamidh/CIV & Dr.Winfred Shashikanth/PHY</p>
-                    </div>
-                </div>
-            </label>
-            <input type="radio" name="Solo-events" id="c6" >
-            <label for="c6" class="card">
-                <div class="row">
-                    <div class="icon">6</div>
-                    <div class="description">
-                        <h4><a href="events/solo-events/pixie.html">Pixie</a></h4>
-                        <p>Faculty In-charge : Dr.M.Sureshkumar/PHY</p>
-                    </div>
-                </div>
-            </label>
-            <input type="radio" name="Solo-events" id="c7" >
-            <label for="c7" class="card">
-                <div class="row">
-                    <div class="icon">7</div>
-                    <div class="description">
-                        <h4><a href="events/solo-events/ezhuthaani.html" style="color: black;">Ezhuthaani</a></h4>
-                        <p style="color: black;">Faculty In-charge : Mrs.J.Deepalakshmi/MATH</p>
-                    </div>
-                </div>
-            </label>
-            <input type="radio" name="Solo-events" id="c8" >
-            <label for="c8" class="card">
-                <div class="row">
-                    <div class="icon">8</div>
-                    <div class="description">
-                        <h4><a href="events/solo-events/drawing.html">Drawing</a></h4>
-                        <p>Faculty In-charge : Dr.A.Shenbagarajan/AI&DS</p>
-                    </div>
-                </div>
-            </label>
-            <input type="radio" name="Solo-events" id="c9" >
-            <label for="c9" class="card">
-                <div class="row">
-                    <div class="icon">9</div>
-                    <div class="description">
-                        <h4><a href="events/solo-events/best-manager.html">Best Manager</a></h4>
-                        <p>Faculty In-charge : Dr.A.Sakthivel/CHEM</p>
-                    </div>
-                </div>
-            </label>
-        </div>
-    </div>
-    <div class="wrapper2">
-        <div class="event-title">
-            <h1>Group Events</h1>
-            <p>Click on the event name to know about the event</p>
-        </div>
-        <div class="container">
-            <input type="radio" name="Group-events" id="g1" checked >
-            <label for="g1" class="card">
-                <div class="row">
-                    <div class="icon">1</div>
-                    <div class="description">
-                        <h4><a href="events/group-events/group-dance.html">Group Dance</a></h4>
-                        <p>Faculty In-charge : Dr.T.Prabaharan/MECH & Dr.C.Gangalakshmi/ENG</p>
-                    </div>
-                </div>
-            </label>
-            <input type="radio" name="Group-events" id="g2">
-            <label for="g2" class="card">
-                <div class="row">
-                    <div class="icon">2</div>
-                    <div class="description">
-                        <h4><a href="events/group-events/drama.html">Drama/Mime</a></h4>
-                        <p> Faculty In-charge : Mr.M.Jawahar/EEE</p>
-                    </div>
-                </div>
-            </label>
-            <input type="radio" name="Group-events" id="g3">
-            <label for="g3" class="card">
-                <div class="row">
-                    <div class="icon">3</div>
-                    <div class="description">
-                        <h4><a href="events/group-events/rangoli.html">Rangoli</a></h4>
-                        <p> Faculty In-charge : Mrs. Blessa Binolin Pepsi/IT & Mrs.P.Madhumitha/ENG</p>
-                    </div>
-                </div>
-            </label>
-            <input type="radio" name="Group-events" id="g4">
-            <label for="g4" class="card">
-                <div class="row">
-                    <div class="icon">4</div>
-                    <div class="description">
-                        <h4><a href="events/group-events/radio-mirchi.html">Radio Mirchi</a></h4>
-                        <p>Faculty In-charge : Mrs.P.Palniladevi, Asst. Professor/ECE</p>
-                    </div>
-                </div>
-            </label>
-            <input type="radio" name="Group-events" id="g5">
-            <label for="g5" class="card">
-                <div class="row">
-                    <div class="icon">5</div>
-                    <div class="description">
-                        <h4><a href="events/group-events/sherlock-holmes.html">Sherlock Holmes</a></h4>
-                        <p>Faculty In-charge : Mr.J.Anish Jafrin Thilak/MECH</p>
-                    </div>
-                </div>
-            </label>
-            <input type="radio" name="Group-events" id="g6" >
-            <label for="g6" class="card">
-                <div class="row">
-                    <div class="icon">6</div>
-                    <div class="description">
-                        <h4><a href="events/group-events/quiz.html">Quiz</a></h4>
-                        <p>Faculty In-charge : Mrs.A.Annie Aglin/BT</p>
-                    </div>
-                </div>
-            </label>
-            <input type="radio" name="Group-events" id="g7" >
-            <label for="g7" class="card">
-                <div class="row">
-                    <div class="icon">7</div>
-                    <div class="description">
-                        <h4><a href="events/group-events/Treasure-hunt.html">Treasure Hunt</a></h4>
-                        <p>Faculty In-charge : Dr.J.Senthil Kumar/ECE</p>
-                    </div>
-                </div>
-            </label>
-            <input type="radio" name="Group-events" id="g8" >
-            <label for="g8" class="card">
-                <div class="row">
-                    <div class="icon">8</div>
-                    <div class="description">
-                        <h4><a href="events/group-events/lyrical-hunt.html">Lyrical Hunt</a></h4>
-                        <p>Faculty In-charge : Mrs.S.Usha/CIV</p>
-                    </div>
-                </div>
-            </label>
-            <input type="radio" name="Group-events" id="g9" >
-            <label for="g9" class="card">
-                <div class="row">
-                    <div class="icon">9</div>
-                    <div class="description">
-                        <h4><a href="events/group-events/poster-making.html">Poster Making</a></h4>
-                        <p>Faculty In-charge : Dr.M.Suresh Kumar/PHY</p>
-                    </div>
-                </div>
-            </label>
-            <input type="radio" name="Group-events" id="g10" >
-            <label for="g10" class="card">
-                <div class="row">
-                    <div class="icon">10</div>
-                    <div class="description">
-                        <h4><a href="#">Winter</a></h4>
-                        <p>Winter has so much to offer creative activities</p>
-                    </div>
-                </div>
-            </label>
-            <input type="radio" name="Group-events" id="g11" >
-            <label for="g11" class="card">
-                <div class="row">
-                    <div class="icon">11</div>
-                    <div class="description">
-                        <h4><a href="#">Winter</a></h4>
-                        <p>Winter has so much to offer creative activities</p>
-                    </div>
-                </div>
-            </label>
-            <input type="radio" name="Group-events" id="g12" >
-            <label for="g12" class="card">
-                <div class="row">
-                    <div class="icon">12</div>
-                    <div class="description">
-                        <h4><a href="#">Winter</a></h4>
-                        <p>Winter has so much to offer creative activities</p>
-                    </div>
-                </div>
-            </label>
-        </div>
-    </div>
-    
-    <script type="text/javascript">
-        (function () {
-          var words = ["Yoo! Juniors", "It's For You", "Fiesta'24" ],
-          i = 0;
-          setInterval(function(){ $('#words').fadeOut(function(){
-              $(this).html(words[(i = (i + 1) % words.length)]).fadeIn();
-            }); }, 3000)
-        })();
-      </script>
-      <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
