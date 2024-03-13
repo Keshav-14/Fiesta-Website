@@ -1,0 +1,47 @@
+@media screen and (max-width : 1080px ){
+    
+    body {
+        min-height: 150vh;
+    }
+
+    .container {
+        /* margin-top: -250px; */
+        flex-direction: column;
+    }
+
+    .wrapper {
+        width: 50vw;
+    }
+
+    .image-container {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width : 800px){
+    
+    
+    /* Alter the Header */
+
+    body {
+        min-height: 180vh;
+    }
+
+    .container {
+        padding: 30px 20px;
+        margin-top: 100px;
+    }
+
+    .event-name > p {
+        padding: 20px 0;
+        font-size: 0.7em;
+    }
+    .wrapper {
+        width: 85vw;
+    }
+    .image-container {
+        width: 200px;
+        height: 200px;
+    }
+}

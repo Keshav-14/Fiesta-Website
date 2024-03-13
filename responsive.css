@@ -1,0 +1,108 @@
+@media screen and (max-width : 1400px){
+    
+.wrapper2 {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.event-title {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.event-title h1 {
+    padding: 50px;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6em;
+}
+
+.event-title p {
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    animation: wobble 2s ease-in-out infinite;
+    animation-delay: 5s;
+}
+
+.container {
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    width: 600px;
+    height: 80px;
+    border-radius: 2rem;
+    background-size: cover;
+    overflow: hidden;
+    margin: 0 10px;
+    display: flex;
+    align-items: flex-end;
+    transition: .6s cubic-bezier(.28, -0.03, 0, 0.99);
+    box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.8);
+}
+
+.card > .row {
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.card > .row > .icon {
+    background: #223;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.card > .row > .description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    height: 80px;
+    width: 520px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition-delay: .3s;
+    transition: all .3s ease;
+}
+
+.description h4 {
+    text-transform: uppercase;
+}
+
+.description h4 a{
+    text-decoration: none;
+}
+
+.description h4 a:visited {
+    color: #fff;
+}
+
+input{
+    display: none;
+}
+
+input:checked + label {
+    height: 300px;
+}
+
+}

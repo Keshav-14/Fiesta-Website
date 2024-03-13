@@ -3,32 +3,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Protest+Revolution&display=swap');
 
 @keyframes fadeInFadeOut {
-    from { opacity: 0.4; color: rgb(190, 4, 4);}
-    50% { opacity: 1; }
-    to { opacity: 0.4; color: white;}
-  }
+from { opacity: 0.4; color: rgb(190, 4, 4);}
+50% { opacity: 1; }
+to { opacity: 0.4; color: white;}
+}
 
-  @keyframes blink {
-    from {opacity: 0.5; font-size: 1em;}
-    50% {opacity: 1; font-size: 1.1em;}
-    to {opacity: 0.5; font-size: 1em;}
-  }
+@keyframes blink {
+from {opacity: 0.5; font-size: 1em;}
+50% {opacity: 1; font-size: 1.1em;}
+to {opacity: 0.5; font-size: 1em;}
+}
 
-  @keyframes wobble {
+@keyframes wobble {
     0% {
-      transform: rotateZ(0deg);
+        transform: rotateZ(0deg);
     }
     25% {
-      transform: rotateZ(-3deg);
+        transform: rotateZ(-3deg);
     }
     75% {
-      transform: rotateZ(3deg);
+        transform: rotateZ(3deg);
     }
     100% {
-      transform: rotateZ(0deg);
+        transform: rotateZ(0deg);
     }
-  }
-  
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -110,17 +110,16 @@ header {
 }
 
 #words {
-    /* font-family: "Merienda", cursive;
+    font-family: "Merienda", cursive;
     font-optical-sizing: auto;
-    font-weight: 500;  */
-    font-size: 2.5em;
+    font-weight: 500;
     font-family: "Protest Revolution", sans-serif;
     font-weight: 400;
     position: absolute;
     text-shadow: 2px 2px #000;
     font-style: normal;
     color: white;
-    font-size: 7em;
+    font-size: 5vw;
 }
 
 .parallax img {
@@ -151,13 +150,16 @@ header {
     z-index: 2;
 }
 
-
 .wrapper-home {
     z-index: 2;
     background: #000;
     position: relative;
     padding: 100px;
     color: #fff;
+}
+
+.container-home {
+    padding: 100px 20px;
 }
 
 .wrapper-home .container-home .College {
@@ -169,6 +171,7 @@ header {
 
 .wrapper-home .container-home .College h1 {
     padding: 30px;
+    font-size: 3vw;
 }
 
 
@@ -177,11 +180,12 @@ header {
     justify-content: center;
     align-items: center;
 }
+
 .wrapper-home .container-home .fiesta-text h1{
     font-family: "Protest Revolution", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 6em;
+    font-size: 6vw;
     animation: fadeInFadeOut 5s ease-in-out infinite alternate;
 }
 
@@ -221,14 +225,14 @@ header {
     font-family: "Protest Revolution", sans-serif;
     font-weight: 400;
     font-style: italic;
-    font-size: 4em;
+    font-size: 3vw;
 }
 
 .container-style h3 {
     font-family: "Protest Revolution", sans-serif;
     font-weight: 400;
     font-style: italic;
-    font-size: 4em;
+    font-size: 3vw;
     transform: rotate(20deg);
     text-shadow: 4px 2px red;    
 }
@@ -265,4 +269,9 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.ink-image {
+    overflow-x: hidden;
+    margin-top: -10px;
 }

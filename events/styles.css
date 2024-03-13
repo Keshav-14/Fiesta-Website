@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -34,7 +34,6 @@ header {
     color: white;
     user-select: none;
 }
-
 
 .navigation a {
     position: relative;
@@ -71,6 +70,7 @@ header {
 }
 
 .container {
+    margin-top: 100px;
     position: relative;
     color: white;
     display: flex;
@@ -94,7 +94,7 @@ header {
 
 .wrapper {
     position: relative;
-    width: 500px;
+    width: 28vw;
     height: auto;
     display: flex;
     flex-direction: column ;
