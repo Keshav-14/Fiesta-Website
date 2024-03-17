@@ -190,6 +190,10 @@ input:checked + label .description {
     background-image: url("event-images/Solo-events/Best-manager.jpg");
 }
 
+.card[for="c10"]{
+    background-image: url("event-images/Solo-events/Best-manager.jpg");
+}
+
 .card[for="g1"]{
     background-image: url("event-images/Group-events/Group-dance.jpg");
 }
@@ -226,6 +230,11 @@ input:checked + label .description {
     background: black;
 }
 .card[for="g12"]{
+    /* background-image: url("event-images/Group\ events/Best-manager.jpg"); */
+    background: black;
+}
+
+.card[for="g13"]{
     /* background-image: url("event-images/Group\ events/Best-manager.jpg"); */
     background: black;
 }
