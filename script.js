@@ -10,8 +10,9 @@ window.addEventListener("scroll", () => {
         text.style.marginTop = value * 2.5 + 'px';
     }
     if(value <= 2000){
-        curtain_left.style.left = value * -.5 + 'px';
-        curtain_right.style.left = value * .5 + 'px';
+        curtain_left.style.left = value * -.8 + 'px';
+        curtain_right.style.left = value * .8 + 'px';
         center_screen.style.top = value * -1 + 'px';
     }
 })
+

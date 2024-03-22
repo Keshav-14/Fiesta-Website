@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="event-stylesheet.css">
     <link rel="stylesheet" href="responsive.css">
-</head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script></head>
 <body>
     <header>
         <h2 class="logo">Fiesta'24</h2>
@@ -161,7 +161,7 @@
                     </label>
                 </div> <!-- container -->
             </div><!-- wrapper2 -->
-            <!-- Group Events -->
+            <!-- Group Events section 1-->
             <div class="wrapper2" style="position: relative;">
                 <div class="event-title">
                     <h1>Group Events</h1>
@@ -228,6 +228,10 @@
                             </div>
                         </div>
                     </label>
+                </div> <!--Container-->
+            </div> <!-- wrapper2 End of section 1-->
+            <div class="wrapper2" style="position: relative;">
+                <div class="container">
                     <input type="radio" name="Group-events" id="g7" >
                     <label for="g7" class="card">
                         <div class="row">
@@ -301,9 +305,18 @@
                 </div>
             </div>
         </div>  <!-- whole-container -->
-        <div class="footer-design">
-            <footer>Designed by Keshavarathinam S</footer>
-        </div>
+    <div class="footer-design">
+        <footer>Designed by Keshavarathinam S</footer>
+    </div>
+    <script type="text/javascript">
+        (function () {
+        var words = ["Yoo! Juniors", "It's For You", "Fiesta'24" ],
+        i = 0;
+        setInterval(function(){ $('#words').fadeOut(function(){
+            $(this).html(words[(i = (i + 1) % words.length)]).fadeIn();
+            }); }, 3000)
+        })();
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
