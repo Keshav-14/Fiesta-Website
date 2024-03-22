@@ -45,10 +45,9 @@ body {
     padding-bottom: 200px;
 }
 
-
 .wrapper2 {
     width: 100%;
-    height: 80vh;
+    height: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,15 +78,19 @@ body {
     animation-delay: 5s;
 }
 
+
 .container {
-    height: 400px;
+    height: auto;
     display: flex;
     flex-wrap: nowrap;
     justify-content: start;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .card {
-    width: 80px;
+    width: 600px;
+    height: 80px;
     border-radius: 2rem;
     background-size: cover;
     overflow: hidden;
@@ -123,7 +126,7 @@ body {
     height: 80px;
     width: 520px;
     opacity: 0;
-    transform: translateY(30px);
+    transform: translateY(-100px);
     transition-delay: .3s;
     transition: all .3s ease;
 }
@@ -146,7 +149,7 @@ input{
 }
 
 input:checked + label {
-    width: 600px;
+    height: 300px;
 }
 
 input:checked + label .description {
