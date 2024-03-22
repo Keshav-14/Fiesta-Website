@@ -1,122 +1,75 @@
-@media screen and (max-width : 1400px){
-    .wrapper2 {
-        width: 100%;
-        height: fit-content;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
+@media screen and (max-width : 1000px){
 
-    .event-title {
-        margin: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+    .parallax{
+        display: none;
     }
-
     .event-title h1 {
-        padding: 50px;
-        font-family: "Protest Revolution", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 6em;
+        font-size: 5em;
+    }
+}
+
+@media screen and (max-width : 900px){    
+
+    .wrapper-home .container-home .College h1 {
+        padding: 30px;
+        font-size: 3vw;
     }
 
-    .event-title p {
-        font-family: "Protest Revolution", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        animation: wobble 2s ease-in-out infinite;
-        animation-delay: 5s;
+    .wrapper-home .container-home .container-text1 {
+        flex-direction: column-reverse;
+        padding: 20px;
     }
 
-    .container {
-        height: auto;
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: start;
-        flex-direction: column;
-        gap: 20px;
+    .wrapper-home .container-home .container-text1 h2{
+        padding: 20px;
+        margin-left: -20%;
+        font-size: 3.5vw;
     }
 
-    .card {
-        width: 600px;
-        height: 80px;
-        border-radius: 2rem;
-        background-size: cover;
-        overflow: hidden;
-        margin: 0 10px;
-        display: flex;
-        align-items: flex-end;
-        transition: .6s cubic-bezier(.28, -0.03, 0, 0.99);
-        box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.8);
+    .wrapper-home .container-home .container-text1 h3{
+        font-size: 3.5vw;
     }
 
-    .card > .row {
-        color: white;
-        display: flex;
-        flex-wrap: nowrap;
+    .wrapper-home .container-home .container-text2 h2{
+        font-size: 3.5vw;
     }
 
-    .card > .row > .icon {
-        background: #223;
-        color: white;
-        border-radius: 50%;
-        width: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 15px;
+    .wrapper-home .container-home .container-text3 h2{
+        font-size: 3.5vw;
     }
 
-    .card > .row > .description {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        overflow: hidden;
-        height: 80px;
-        width: 520px;
-        opacity: 0;
-        transform: translateY(-100px);
-        transition-delay: .3s;
-        transition: all .3s ease;
+    .wrapper-home .container-home .container-text4 h2{
+        font-size: 3.5vw;
     }
 
-    .description h4 {
-        text-transform: uppercase;
+    .container-style h2{
+        font-size: 4vw;
     }
 
-    .description h4 a{
-        text-decoration: none;
+    .container-style h3 {
+        transform: rotate(0deg);
+    }
+}
+
+@media screen and (max-width : 650px){
+    .whole-container {
+        margin-top: 50px;
     }
 
-    .description h4 a:visited {
-        color: #fff;
-    }
-
-    input{
+    .ink-image {
         display: none;
     }
 
-    input:checked + label {
-        height: 300px;
+    .event-title h1 {
+        font-size: 2.5em;
     }
-
-}
-
-@media screen and (max-width : 800px){
 
     .card {
         width: 300px;
     }
-    .card > .row > .description{
-        width: 250px;
-    }
 
-    input:checked + label {
-        width: 300px;
+    .card > .row > .description > p{
+        display: none;
     }
 
     .parallax{
@@ -125,5 +78,13 @@
         
     .wrapper-home > .container-home > .fiesta-text > h1 {
         display: none;
+    }
+
+    .wrapper-home {
+        display: none;
+    }
+
+    .logo {
+        color: #000;
     }
 }
