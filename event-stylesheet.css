@@ -62,6 +62,10 @@ body {
     flex-direction: column;
 }
 
+.event-date {
+    display: none;
+}
+
 .event-title h1 {
     padding: 50px;
     font-family: "Protest Revolution", sans-serif;

@@ -8,7 +8,18 @@
     }
 }
 
-@media screen and (max-width : 900px){    
+@media screen and (max-width : 900px){   
+    
+    .event-date {
+        display: contents;
+    }
+
+    .event-date h2{
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-shadow: 2px 2px red;    
+    }
 
     .wrapper-home .container-home .College h1 {
         padding: 30px;
@@ -53,7 +64,7 @@
 
 @media screen and (max-width : 650px){
     .whole-container {
-        margin-top: 50px;
+        margin-top: 100px;
     }
 
     .ink-image {
