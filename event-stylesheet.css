@@ -129,18 +129,26 @@ body {
     overflow: hidden;
     height: 80px;
     width: 520px;
-    opacity: 0;
+}
+
+.card > .row > .description > p {
     transform: translateY(-100px);
     transition-delay: .3s;
     transition: all .3s ease;
+    opacity: 0;
+}
+
+.card > .row > .description > h4 {
+    transform: translateY(13px);
+    opacity: 1;
 }
 
 .description h4 {
     text-transform: uppercase;
 }
 
-.description h4 a{
-    text-decoration: none;
+.description a{
+    text-decoration: underline;
     color: #fff;
 }
 
@@ -156,8 +164,12 @@ input:checked + label {
     height: 300px;
 }
 
-input:checked + label .description {
+input:checked + label .description p{
     opacity: 1 !important ;
+    transform: translateY(0) !important;
+}
+
+input:checked + label .description h4{
     transform: translateY(0) !important;
 }
 
@@ -223,7 +235,7 @@ input:checked + label .description {
     background-image: url("event-images/Group-events/Treasure-hunt.jpg");
 }
 .card[for="g8"]{
-    background-image: url("event-images/Group-events/Lyrical-hunt.jpg");
+    background-image: url("event-images/Group-events/Lyrical-hunt2.jpg");
 }
 .card[for="g9"]{
     background-image: url("event-images/Group-events/Poster-making.jpg");

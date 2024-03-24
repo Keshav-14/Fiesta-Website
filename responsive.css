@@ -10,17 +10,6 @@
 
 @media screen and (max-width : 900px){   
     
-    .event-date {
-        display: contents;
-    }
-
-    .event-date h2{
-        font-family: "Protest Revolution", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        text-shadow: 2px 2px red;    
-    }
-
     .wrapper-home .container-home .College h1 {
         padding: 30px;
         font-size: 3vw;
@@ -63,6 +52,17 @@
 }
 
 @media screen and (max-width : 650px){
+    .event-date {
+        display: contents;
+    }
+
+    .event-date h2{
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-shadow: 2px 2px red;    
+    }
+
     .whole-container {
         margin-top: 100px;
     }
@@ -79,7 +79,7 @@
         width: 300px;
     }
 
-    .card > .row > .description > p{
+    .card > .row > .description > .faculty{
         display: none;
     }
 
@@ -97,5 +97,10 @@
 
     .logo {
         color: #000;
+    }
+
+    .card > .row > .description > h4 {
+        transform: translateY(12px);
+        opacity: 1;
     }
 }
