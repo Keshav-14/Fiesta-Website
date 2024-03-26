@@ -3,18 +3,18 @@
 
 @keyframes wobble {
     0% {
-      transform: rotateZ(0deg);
+        transform: rotateZ(0deg);
     }
     25% {
-      transform: rotateZ(-1deg);
+        transform: rotateZ(-1deg);
     }
     75% {
-      transform: rotateZ(1deg);
+        transform: rotateZ(1deg);
     }
     100% {
-      transform: rotateZ(0deg);
+        transform: rotateZ(0deg);
     }
-  }
+}
 
 * {
     box-sizing: border-box;
@@ -210,7 +210,7 @@ input:checked + label .description h4{
 }
 
 .card[for="c10"]{
-    background-image: url("event-images/Solo-events/Best-manager.jpg");
+    background-image: url("event-images/Solo-events/Elocution.jpg");
 }
 
 .card[for="g1"]{
@@ -241,19 +241,15 @@ input:checked + label .description h4{
     background-image: url("event-images/Group-events/Poster-making.jpg");
 }
 .card[for="g10"]{
-    /* background-image: url("event-images/Group\ events/Best-manager.jpg"); */
-    background: black;
+    background-image: url("event-images/Group-events/Monsters-muss.jpg");
 }
 .card[for="g11"]{
-    /* background-image: url("event-images/Group\ events/Best-manager.jpg"); */
-    background: black;
+    background-image: url("event-images/Group-events/Divide-and-conquer.jpg");
 }
 .card[for="g12"]{
-    /* background-image: url("event-images/Group\ events/Best-manager.jpg"); */
-    background: black;
+    background-image: url("event-images/Group-events/Spell-bee.jpg");
 }
 
 .card[for="g13"]{
-    /* background-image: url("event-images/Group\ events/Best-manager.jpg"); */
-    background: black;
+    background-image: url("event-images/Group-events/Cinimatrix.jpg");
 }
