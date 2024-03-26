@@ -247,9 +247,5 @@ input:checked + label .description h4{
     background-image: url("event-images/Group-events/Divide-and-conquer.jpg");
 }
 .card[for="g12"]{
-    background-image: url("event-images/Group-events/Spell-bee.jpg");
-}
-
-.card[for="g13"]{
     background-image: url("event-images/Group-events/Cinimatrix.jpg");
 }
