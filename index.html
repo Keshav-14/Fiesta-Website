@@ -1,330 +1,384 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fiesta'24</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="event-stylesheet.css">
-    <link rel="stylesheet" href="responsive.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="event-stylesheet.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <style>
-        footer div p, 
-        footer span{
-            color: gray;
-        }
-        footer span {
-            color: black;
-        }
+      footer div p,
+      footer span {
+        color: gray;
+      }
+      footer span {
+        color: black;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h2 class="logo">Fiesta'24</h2>
-        <nav class="navigation">
-            <a href="index.html" class="active">Home<span></span></a>
-            <a href="event.html" class="hideOnMobile">Events<span></span></a>
-            <a href="https://drive.google.com/file/d/1zemO74LGiupHpCoC7vy3PWCZc_P8A1Ao/view?usp=sharing" target="_blank">Register<span></span></a>
-        </nav>
+      <h2 class="logo">Fiesta'24</h2>
+      <nav class="navigation">
+        <a href="index.html" class="active">Home<span></span></a>
+        <a href="event.html" class="hideOnMobile">Events<span></span></a>
+        <a
+          href="https://docs.google.com/document/d/17YG3fxL0f5iDa7fA39ACsZlKOiEei2FKuA5St9FYTuY/edit?usp=sharing"
+          target="_blank"
+          >Register<span></span
+        ></a>
+      </nav>
     </header>
     <div class="parallax">
-        <h2 id="words">Yoo! Juniors</h2>
-        <img src="images/center-screen1.png" alt="" id="center-screen">
-        <img src="images/curtain-left.png" alt="" id="curtain-left">
-        <img src="images/curtain-right.png" alt="" id="curtain-right">
-        <img src="images/audience.png" alt="" id="audience">
-        <div class="scroll-down" id="scroll-down-div">
-            <h2>Scroll Down</h2>
-            <i class='bx bx-chevrons-down'></i>
-        </div>
+      <h2 id="words">Yoo! Juniors</h2>
+      <img src="images/center-screen1.png" alt="" id="center-screen" />
+      <img src="images/curtain-left.png" alt="" id="curtain-left" />
+      <img src="images/curtain-right.png" alt="" id="curtain-right" />
+      <img src="images/audience.png" alt="" id="audience" />
+      <div class="scroll-down" id="scroll-down-div">
+        <h2>Scroll Down</h2>
+        <i class="bx bx-chevrons-down"></i>
+      </div>
     </div>
-        <div class="wrapper-home">
-            <div class="container-home">
-                <div class="fiesta-text">
-                    <h1>Fiesta'24</h1>
-                </div>
-                <div class="College">
-                    <span><img src="./images/logo.jpeg" alt="College Logo"></span>
-                    <h1>Mepco Schlenk Engineering College</h1>
-                </div>
-                <div class="container-text1 container-style">
-                    <h2>An Intra College Cultural Competition</h2>
-                    <h3>Date : 12-4-24</h3>
-                </div>
-                <div class="container-text2 container-style">
-                    <h2>Where Art Meets Hearts...</h2>
-                </div>
-                <div class="container-text3 container-style">
-                    <h2>Under the Guidance of Clubs Chairperson</h2>
-                </div>
-                <div class="container-text4 container-style">
-                    <h2>A Perfect Stage to Showcase Your Talents</h2>
-                </div>
-            </div>
+    <div class="wrapper-home">
+      <div class="container-home">
+        <div class="fiesta-text">
+          <h1>Fiesta'24</h1>
         </div>
-        <div class="ink-image">
-            <img src="images/ink-layer.png" alt="">
+        <div class="College">
+          <span><img src="./images/logo.jpeg" alt="College Logo" /></span>
+          <h1>Mepco Schlenk Engineering College</h1>
         </div>
-        <!-- Solo Events -->
-        <div class="whole-container">
-            <div class="wrapper2" id="event-section" style="position: relative;">
-                <div class="event-title">
-                    <div class="event-date">
-                        <h2>Event Date : 12-04-24</h2>
-                    </div>
-                    <h1>Solo Events</h1>
-                    <p>Click on the event name to know about the event</p>
-                </div>
-                <div class="container">
-                    <input type="radio" name="Solo-events" id="c1" checked>
-                    <label for="c1" class="card">
-                        <div class="row">
-                            <div class="icon">1</div>
-                            <div class="description">
-                                <h4>Solo Dance</h4>
-                                <p><a href="events/solo-events/dance.html">Know More</a></p>
-                            </div>
-                        </div>
-                    </label>
-                    <input type="radio" name="Solo-events" id="c2">
-                    <label for="c2" class="card">
-                        <div class="row">
-                            <div class="icon">2</div>
-                            <div class="description">
-                                <h4>Solo Singing</h4>
-                                <p><a href="events/solo-events/singing.html">Know More</a></p>
-                            </div>
-                        </div>
-                    </label>
-                    <input type="radio" name="Solo-events" id="c3">
-                    <label for="c3" class="card">
-                        <div class="row">
-                            <div class="icon">3</div>
-                            <div class="description">
-                                <h4>Yoga</h4>
-                                <p><a href="events/solo-events/yoga.html">Know More</a></p>
-                            </div>
-                        </div>
-                    </label>
-                    <input type="radio" name="Solo-events" id="c4">
-                    <label for="c4" class="card">
-                        <div class="row">
-                            <div class="icon">4</div>
-                            <div class="description">
-                                <h4>As You Like It</h4>
-                                <p><a href="events/solo-events/as-you-like-it.html">Know More</a></p>
-                            </div>
-                        </div>
-                    </label>
-                    <input type="radio" name="Solo-events" id="c5">
-                    <label for="c5" class="card">
-                        <div class="row">
-                            <div class="icon">5</div>
-                            <div class="description">
-                                <h4>Solo Instrumental</h4>
-                                <p><a href="events/solo-events/solo-instrumental.html">Know More</a></p>
-                            </div>
-                        </div>
-                    </label>
-                    <input type="radio" name="Solo-events" id="c6" >
-                    <label for="c6" class="card">
-                        <div class="row">
-                            <div class="icon">6</div>
-                            <div class="description">
-                                <h4>Pixie</h4>
-                                <p><a href="events/solo-events/pixie.html">Know More</a></p>
-                            </div>
-                        </div>
-                    </label>
-                    <input type="radio" name="Solo-events" id="c7" >
-                    <label for="c7" class="card">
-                        <div class="row">
-                            <div class="icon">7</div>
-                            <div class="description">
-                                <h4>Ezhuthaani</h4>
-                                <p><a href="events/solo-events/ezhuthaani.html" style="color: black;">Know More</a></p>
-                            </div>
-                        </div>
-                    </label>
-                    <input type="radio" name="Solo-events" id="c8" >
-                    <label for="c8" class="card">
-                        <div class="row">
-                            <div class="icon">8</div>
-                            <div class="description">
-                                <h4>Drawing</h4>
-                                <p><a href="events/solo-events/drawing.html">Know More</a></p>
-                            </div>
-                        </div>
-                    </label>
-                    <input type="radio" name="Solo-events" id="c9" >
-                    <label for="c9" class="card">
-                        <div class="row">
-                            <div class="icon">9</div>
-                            <div class="description">
-                                <h4>Best Manager</h4>
-                                <p><a href="events/solo-events/best-manager.html">Know More</a></p>
-                            </div>
-                        </div>
-                    </label>
-                    <input type="radio" name="Solo-events" id="c10" >
-                    <label for="c10" class="card">
-                        <div class="row">
-                            <div class="icon">10</div>
-                            <div class="description">
-                                <h4>Elocution</h4>
-                                <p><a href="events/solo-events/elocution.html">Know More</a></p>
-                            </div>
-                        </div>
-                    </label>
-                </div> <!-- container -->
-            </div><!-- wrapper2 -->
-            <!-- Group Events section 1-->
-            <div class="wrapper2" style="position: relative;">
-                <div class="event-title">
-                    <h1>Group Events</h1>
-                    <p>Click on the event name to know about the event</p>
-                </div>
-                <div class="container">
-                    <input type="radio" name="Group-events" id="g1" checked >
-                    <label for="g1" class="card">
-                        <div class="row">
-                            <div class="icon">1</div>
-                            <div class="description">
-                                <h4>Group Dance</h4>
-                                <p><a href="events/group-events/group-dance.html">Know More</a></p>
-                            </div>
-                        </div>
-                    </label>
-                    <input type="radio" name="Group-events" id="g2">
-                    <label for="g2" class="card">
-                        <div class="row">
-                            <div class="icon">2</div>
-                            <div class="description">
-                                <h4>Drama/Mime</h4>
-                                <p><a href="events/group-events/drama.html">Know More</a></p>
-                            </div>
-                        </div>
-                    </label>
-                    <input type="radio" name="Group-events" id="g3">
-                    <label for="g3" class="card">
-                        <div class="row">
-                            <div class="icon">3</div>
-                            <div class="description">
-                                <h4>Rangoli</h4>
-                                <p><a href="events/group-events/rangoli.html">Know More</a></p>
-                            </div>
-                        </div>
-                    </label>
-                    <input type="radio" name="Group-events" id="g4">
-                    <label for="g4" class="card">
-                        <div class="row">
-                            <div class="icon">4</div>
-                            <div class="description">
-                                <h4>Radio Mirchi</h4>
-                                <p><a href="events/group-events/radio-mirchi.html">Know More</a></p>
-                            </div>
-                        </div>
-                    </label>
-                    <input type="radio" name="Group-events" id="g5">
-                    <label for="g5" class="card">
-                        <div class="row">
-                            <div class="icon">5</div>
-                            <div class="description">
-                                <h4>Sherlock Holmes</h4>
-                                <p><a href="events/group-events/sherlock-holmes.html">Know More</a></p>
-                            </div>
-                        </div>
-                    </label>
-                    <input type="radio" name="Group-events" id="g6" >
-                    <label for="g6" class="card">
-                        <div class="row">
-                            <div class="icon">6</div>
-                            <div class="description">
-                                <h4>Quiz</h4>
-                                <p><a href="events/group-events/quiz.html">Know More</a></p>
-                            </div>
-                        </div>
-                    </label>
-                    <input type="radio" name="Group-events" id="g7" >
-                    <label for="g7" class="card">
-                        <div class="row">
-                            <div class="icon">7</div>
-                            <div class="description">
-                                <h4>Treasure Hunt</h4>
-                                <p><a href="events/group-events/Treasure-hunt.html">Know More</a></p>
-                            </div>
-                        </div>
-                    </label>
-                    <input type="radio" name="Group-events" id="g8" >
-                    <label for="g8" class="card">
-                        <div class="row">
-                            <div class="icon">8</div>
-                            <div class="description">
-                                <h4>Lyrical Hunt</h4>
-                                <p><a href="events/group-events/lyrical-hunt.html">Know More</a></p>
-                            </div>
-                        </div>
-                    </label>
-                    <input type="radio" name="Group-events" id="g9" >
-                    <label for="g9" class="card">
-                        <div class="row">
-                            <div class="icon">9</div>
-                            <div class="description">
-                                <h4>Poster Making</h4>
-                                <p><a href="events/group-events/poster-making.html">Know More</a></p>
-                            </div>
-                        </div>
-                    </label>
-                    <input type="radio" name="Group-events" id="g10" >
-                    <label for="g10" class="card">
-                        <div class="row">
-                            <div class="icon">10</div>
-                            <div class="description">
-                                <h4>Monster's Muss</h4>
-                                <p><a href="events/group-events/monsters-muss.html">Know More</a></p>
-                            </div>
-                        </div>
-                    </label>
-                    <input type="radio" name="Group-events" id="g11" >
-                    <label for="g11" class="card">
-                        <div class="row">
-                            <div class="icon">11</div>
-                            <div class="description">
-                                <h4>Divide and Conquer</h4>
-                                <p><a href="events/group-events/divide-and-conquer.html">Know More</a></p>
-                            </div>
-                        </div>
-                    </label>
-                    <input type="radio" name="Group-events" id="g12" >
-                    <label for="g12" class="card">
-                        <div class="row">
-                            <div class="icon">12</div>
-                            <div class="description">
-                                <h4>Cinematrix</h4>
-                                <p><a href="events/group-events/cinimatrix.html">Know More</a></p>
-                            </div>
-                        </div>
-                    </label>
-                </div>
+        <div class="container-text1 container-style">
+          <h2>An Intra College Cultural Competition</h2>
+          <h3>Date : 12-4-24</h3>
+        </div>
+        <div class="container-text2 container-style">
+          <h2>Where Art Meets Hearts...</h2>
+        </div>
+        <div class="container-text3 container-style">
+          <h2>Under the Guidance of Clubs Chairperson</h2>
+        </div>
+        <div class="container-text4 container-style">
+          <h2>A Perfect Stage to Showcase Your Talents</h2>
+        </div>
+      </div>
+    </div>
+    <div class="ink-image">
+      <img src="images/ink-layer.png" alt="" />
+    </div>
+    <!-- Solo Events -->
+    <div class="whole-container">
+      <div class="wrapper2" id="event-section" style="position: relative">
+        <div class="event-title">
+          <div class="event-date">
+            <h2>Event Date : 12-04-24</h2>
+          </div>
+          <h1>Solo Events</h1>
+          <p>Click on the event name to know about the event</p>
+        </div>
+        <div class="container">
+          <input type="radio" name="Solo-events" id="c1" checked />
+          <label for="c1" class="card">
+            <div class="row">
+              <div class="icon">1</div>
+              <div class="description">
+                <h4>Solo Dance</h4>
+                <p><a href="events/solo-events/dance.html">Know More</a></p>
+              </div>
             </div>
-        </div>  <!-- whole-container -->
+          </label>
+          <input type="radio" name="Solo-events" id="c2" />
+          <label for="c2" class="card">
+            <div class="row">
+              <div class="icon">2</div>
+              <div class="description">
+                <h4>Solo Singing</h4>
+                <p><a href="events/solo-events/singing.html">Know More</a></p>
+              </div>
+            </div>
+          </label>
+          <input type="radio" name="Solo-events" id="c3" />
+          <label for="c3" class="card">
+            <div class="row">
+              <div class="icon">3</div>
+              <div class="description">
+                <h4>Yoga</h4>
+                <p><a href="events/solo-events/yoga.html">Know More</a></p>
+              </div>
+            </div>
+          </label>
+          <input type="radio" name="Solo-events" id="c4" />
+          <label for="c4" class="card">
+            <div class="row">
+              <div class="icon">4</div>
+              <div class="description">
+                <h4>As You Like It</h4>
+                <p>
+                  <a href="events/solo-events/as-you-like-it.html">Know More</a>
+                </p>
+              </div>
+            </div>
+          </label>
+          <input type="radio" name="Solo-events" id="c5" />
+          <label for="c5" class="card">
+            <div class="row">
+              <div class="icon">5</div>
+              <div class="description">
+                <h4>Solo Instrumental</h4>
+                <p>
+                  <a href="events/solo-events/solo-instrumental.html"
+                    >Know More</a
+                  >
+                </p>
+              </div>
+            </div>
+          </label>
+          <input type="radio" name="Solo-events" id="c6" />
+          <label for="c6" class="card">
+            <div class="row">
+              <div class="icon">6</div>
+              <div class="description">
+                <h4>Pixie</h4>
+                <p><a href="events/solo-events/pixie.html">Know More</a></p>
+              </div>
+            </div>
+          </label>
+          <input type="radio" name="Solo-events" id="c7" />
+          <label for="c7" class="card">
+            <div class="row">
+              <div class="icon">7</div>
+              <div class="description">
+                <h4>Ezhuthaani</h4>
+                <p>
+                  <a
+                    href="events/solo-events/ezhuthaani.html"
+                    style="color: black"
+                    >Know More</a
+                  >
+                </p>
+              </div>
+            </div>
+          </label>
+          <input type="radio" name="Solo-events" id="c8" />
+          <label for="c8" class="card">
+            <div class="row">
+              <div class="icon">8</div>
+              <div class="description">
+                <h4>Drawing</h4>
+                <p><a href="events/solo-events/drawing.html">Know More</a></p>
+              </div>
+            </div>
+          </label>
+          <input type="radio" name="Solo-events" id="c9" />
+          <label for="c9" class="card">
+            <div class="row">
+              <div class="icon">9</div>
+              <div class="description">
+                <h4>Best Manager</h4>
+                <p>
+                  <a href="events/solo-events/best-manager.html">Know More</a>
+                </p>
+              </div>
+            </div>
+          </label>
+          <input type="radio" name="Solo-events" id="c10" />
+          <label for="c10" class="card">
+            <div class="row">
+              <div class="icon">10</div>
+              <div class="description">
+                <h4>Elocution</h4>
+                <p><a href="events/solo-events/elocution.html">Know More</a></p>
+              </div>
+            </div>
+          </label>
+        </div>
+        <!-- container -->
+      </div>
+      <!-- wrapper2 -->
+      <!-- Group Events section 1-->
+      <div class="wrapper2" style="position: relative">
+        <div class="event-title">
+          <h1>Group Events</h1>
+          <p>Click on the event name to know about the event</p>
+        </div>
+        <div class="container">
+          <input type="radio" name="Group-events" id="g1" checked />
+          <label for="g1" class="card">
+            <div class="row">
+              <div class="icon">1</div>
+              <div class="description">
+                <h4>Group Dance</h4>
+                <p>
+                  <a href="events/group-events/group-dance.html">Know More</a>
+                </p>
+              </div>
+            </div>
+          </label>
+          <input type="radio" name="Group-events" id="g2" />
+          <label for="g2" class="card">
+            <div class="row">
+              <div class="icon">2</div>
+              <div class="description">
+                <h4>Drama/Mime</h4>
+                <p><a href="events/group-events/drama.html">Know More</a></p>
+              </div>
+            </div>
+          </label>
+          <input type="radio" name="Group-events" id="g3" />
+          <label for="g3" class="card">
+            <div class="row">
+              <div class="icon">3</div>
+              <div class="description">
+                <h4>Rangoli</h4>
+                <p><a href="events/group-events/rangoli.html">Know More</a></p>
+              </div>
+            </div>
+          </label>
+          <input type="radio" name="Group-events" id="g4" />
+          <label for="g4" class="card">
+            <div class="row">
+              <div class="icon">4</div>
+              <div class="description">
+                <h4>Radio Mirchi</h4>
+                <p>
+                  <a href="events/group-events/radio-mirchi.html">Know More</a>
+                </p>
+              </div>
+            </div>
+          </label>
+          <input type="radio" name="Group-events" id="g5" />
+          <label for="g5" class="card">
+            <div class="row">
+              <div class="icon">5</div>
+              <div class="description">
+                <h4>Sherlock Holmes</h4>
+                <p>
+                  <a href="events/group-events/sherlock-holmes.html"
+                    >Know More</a
+                  >
+                </p>
+              </div>
+            </div>
+          </label>
+          <input type="radio" name="Group-events" id="g6" />
+          <label for="g6" class="card">
+            <div class="row">
+              <div class="icon">6</div>
+              <div class="description">
+                <h4>Quiz</h4>
+                <p><a href="events/group-events/quiz.html">Know More</a></p>
+              </div>
+            </div>
+          </label>
+          <input type="radio" name="Group-events" id="g7" />
+          <label for="g7" class="card">
+            <div class="row">
+              <div class="icon">7</div>
+              <div class="description">
+                <h4>Treasure Hunt</h4>
+                <p>
+                  <a href="events/group-events/Treasure-hunt.html">Know More</a>
+                </p>
+              </div>
+            </div>
+          </label>
+          <input type="radio" name="Group-events" id="g8" />
+          <label for="g8" class="card">
+            <div class="row">
+              <div class="icon">8</div>
+              <div class="description">
+                <h4>Lyrical Hunt</h4>
+                <p>
+                  <a href="events/group-events/lyrical-hunt.html">Know More</a>
+                </p>
+              </div>
+            </div>
+          </label>
+          <input type="radio" name="Group-events" id="g9" />
+          <label for="g9" class="card">
+            <div class="row">
+              <div class="icon">9</div>
+              <div class="description">
+                <h4>Poster Making</h4>
+                <p>
+                  <a href="events/group-events/poster-making.html">Know More</a>
+                </p>
+              </div>
+            </div>
+          </label>
+          <input type="radio" name="Group-events" id="g10" />
+          <label for="g10" class="card">
+            <div class="row">
+              <div class="icon">10</div>
+              <div class="description">
+                <h4>Monster's Muss</h4>
+                <p>
+                  <a href="events/group-events/monsters-muss.html">Know More</a>
+                </p>
+              </div>
+            </div>
+          </label>
+          <input type="radio" name="Group-events" id="g11" />
+          <label for="g11" class="card">
+            <div class="row">
+              <div class="icon">11</div>
+              <div class="description">
+                <h4>Divide and Conquer</h4>
+                <p>
+                  <a href="events/group-events/divide-and-conquer.html"
+                    >Know More</a
+                  >
+                </p>
+              </div>
+            </div>
+          </label>
+          <input type="radio" name="Group-events" id="g12" />
+          <label for="g12" class="card">
+            <div class="row">
+              <div class="icon">12</div>
+              <div class="description">
+                <h4>Cinematrix</h4>
+                <p>
+                  <a href="events/group-events/cinimatrix.html">Know More</a>
+                </p>
+              </div>
+            </div>
+          </label>
+        </div>
+      </div>
+    </div>
+    <!-- whole-container -->
     <div class="footer-design">
-        <footer>
-            <div>
-                <p>Designed by <span>Keshavarathinam </span>and <span>Sanjith </span>of 3rd Year CSE B</p>
-            </div>
-        </footer>
+      <footer>
+        <div>
+          <p>
+            Designed by <span>Keshavarathinam </span>and <span>Sanjith </span>of
+            3rd Year CSE B
+          </p>
+        </div>
+      </footer>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript">
-        (function () {
-        var words = ["Yoo! Juniors", "It's For You", "Fiesta'24" ],
-        i = 0;
-        setInterval(function(){ $('#words').fadeOut(function(){
-            $(this).html(words[(i = (i + 1) % words.length)]).fadeIn();
-            }); }, 3000)
-        })();
+      (function () {
+        var words = ["Yoo! Juniors", "It's For You", "Fiesta'24"],
+          i = 0;
+        setInterval(function () {
+          $("#words").fadeOut(function () {
+            $(this)
+              .html(words[(i = (i + 1) % words.length)])
+              .fadeIn();
+          });
+        }, 3000);
+      })();
     </script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
