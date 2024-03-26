@@ -44,4 +44,24 @@
         width: 200px;
         height: 200px;
     }
+    header {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .hideOnMobile {
+        display: none;
+    }
+    
+    .navigation a {
+        color: #fff;
+    }
+
+    .navigation a:hover,
+    .navigation a.active {
+        color: #333;
+    }
+
+    .navigation a span{
+        background: #fff;
+    }
 }
